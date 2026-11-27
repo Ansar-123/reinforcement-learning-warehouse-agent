@@ -52,3 +52,8 @@ for i in range(env.grid_size):
             print(actions_map[action], end=" ")
 
     print()
+
+from calculation import add
+
+result = add(10, 20)
+print(result)
